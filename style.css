@@ -12,6 +12,10 @@ main {
   height: 100vh;
 }
 
+button {
+  background-color: rgb(125, 182, 125);
+}
+
 .mainContainer {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
@@ -24,6 +28,7 @@ main {
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 10px;
+  background-color: rgb(125, 182, 125);
 }
 
 .search {
@@ -53,6 +58,7 @@ main {
   display: grid;
   grid-template-columns: 1fr 4fr;
   grid-template-rows: repeat(10, 1fr) 8fr;
+  background-color: rgb(125, 182, 125);
 }
 
 .projectsContainer {
